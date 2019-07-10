@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3Dfact</title>
+    <style>
+    body{
+        margin: 0;
+        overflow: hidden;
+    }
+    canvas{
+        background-color: white;
+}
+    #instructions{
+        position: absolute;
+        color: #000;
+        bottom: 0;
+        padding-bottom: 47px;
+        font-family: tahoma;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        pointer-events: none;
+    }
+    
+    </style>
+</head>
+<body>
+    <div id="three-container"></div>
+    <div id="instructions">
+        Press Hold Right Mouse Button and drag to control the animation!
+    </div>
+    <script src="three.min.js"></script>
+    <script src="TweenMax.min.js"></script>
+    <script src="bas.js"></script>
+    <script src="OrbitControls-2.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
